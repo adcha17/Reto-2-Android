@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/fondo2"
+
+    tools:context="com.loginandroid.MainActivity">
+
+    <EditText
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#3c0"
+        android:textColorHint="#fff"
+        android:inputType="textPersonName"
+        android:hint="Nombre"
+        android:ems="10"
+        android:id="@+id/text_name"
+        android:elegantTextHeight="false"
+         />
+
+    <EditText
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#3c0"
+        android:textColorHint="#fff"
+        android:inputType="textPersonName"
+        android:hint="Apellido"
+        android:ems="10"
+        android:id="@+id/text_last_name" />
+
+    <EditText
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#3c0"
+        android:textColorHint="#fff"
+        android:inputType="textPersonName"
+        android:hint="Edad"
+        android:ems="10"
+        android:id="@+id/text_age" />
+
+    <EditText
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#3c0"
+        android:textColorHint="#fff"
+        android:inputType="textPersonName"
+        android:hint="DNI"
+        android:ems="10"
+        android:id="@+id/text_dni" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="REGISTRAR"
+        android:id="@+id/btn_save"
+        android:textColor="#fff"
+        android:background="#3c0"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arbol"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
